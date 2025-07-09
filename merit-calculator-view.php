@@ -49,13 +49,9 @@ $pluginPath = plugin_dir_url(__FILE__);
                 <h3 class="title-step">Step Title</h3>
                 <div class="form-card-section">
                    
+                    
                     <div class="field-container">
-                        <label class="fieldlabels">Requested Mortgage amount</label>
-                        <input type="text" id="mortgageAmount" name="property" class="calc-input" placeholder="Mortgage amount" inputmode="numeric" value="500000">
-                        <div class="valid_talk_user" id="property_valid"></div>
-                    </div>
-                    <div class="field-container">
-                        <label class="fieldlabels">Marital Status</label>
+                        <label class="fieldlabels">Especialidad:</label>
                         <select id="maritalStatus" name="maritalStatus" tabindex="-1" class="calc-input">
                             <option value="Single">Single</option>
                             <option value="In a relationship without children">In a relationship without children</option>
@@ -63,11 +59,19 @@ $pluginPath = plugin_dir_url(__FILE__);
                             <option value="Divorcee">Divorcee</option>
                             <option value="Single Parent">Single Parent</option>
                         </select>
+
                     </div>
-                    <div class="field-container">
-                        <label class="fieldlabels">Net household income</label>
-                        <input type="text" id="householdIncome" name="householdIncome" class="calc-input" placeholder="household income" inputmode="numeric" value="100000">
-                        <div class="valid_talk_user" id="property_valid"></div>
+                      <div class="field-container">
+                        <label class="fieldlabels">Provincia:</label>
+                        <select id="creditIssues" name="creditIssues" tabindex="-1" class="calc-input">
+                            <option value="No">No</option>
+                            <option value="Yes">Yes</option>
+                        </select>
+                    </div>
+                    <h3 class="title-step">PUNTUACION TOTAL</h3>
+                    <div class="sub-title">(Máximo 10 puntos)</div>
+                     <div class="field-container">
+                        <div class="subtitle-box">1.1 Experiencia docente en especialidades del Cuerpo de Maestros, en centros públicos</div>
                     </div>
                     <div class="field-container">
                         <label class="fieldlabels">Additional loans you are currently paying off?</label>
@@ -100,13 +104,7 @@ $pluginPath = plugin_dir_url(__FILE__);
                 <h3 class="title-step">Step Title</h3>
                 <div class="form-card-section">
                     
-                    <div class="field-container">
-                        <label class="fieldlabels">Do you have any credit issues?</label>
-                        <select id="creditIssues" name="creditIssues" tabindex="-1" class="calc-input">
-                            <option value="No">No</option>
-                            <option value="Yes">Yes</option>
-                        </select>
-                    </div>
+                  
                     <div class="field-container">
                         <label class="fieldlabels">What is  your square house?</label>
                         <input type="text" id="squareHouse" name="squareHouse" class="calc-input" placeholder="Square house" inputmode="numeric" value="10000">

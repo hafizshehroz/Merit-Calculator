@@ -397,10 +397,10 @@
     .form-card-section {
         /* margin-bottom: 20px; */
         padding: 20px;
-        display: grid;
+        /* display: grid; */
         grid-template-columns: 50% 50%;
         font-family: 'Heebo', sans-serif;
-        text-align: right
+        text-align: left;
     }
 
     #edenmaimon-form fieldset:not(:first-of-type) {
@@ -485,8 +485,8 @@
         font-size: 18px;
         font-weight: 800;
         margin-top: 10px;
-        margin-right: 8px;
-        text-align: right;
+        margin-left: 8px;
+        text-align: left;
         line-height: 1;
     }
 
