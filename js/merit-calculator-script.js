@@ -13,14 +13,14 @@ jQuery(document).ready(async function ($) {
         }
         return x1 + x2;
     }
-    new SlimSelect({ placeholder: '', select: "select#mortgageLoan", searchPlaceholder: '', showContent: "down", showSearch: !1, });
+    // new SlimSelect({ placeholder: '', select: "select#mortgageLoan", searchPlaceholder: '', showContent: "down", showSearch: !1, });
     new SlimSelect({ placeholder: '', select: 'select#maritalStatus', searchPlaceholder: '', showContent: "down", showSearch: !1, });
     new SlimSelect({ placeholder: '', select: 'select#creditIssues', showSearch: !1, showContent: "down", });
-    new SlimSelect({ placeholder: '', select: 'select#whoTake', showSearch: !1, showContent: "down", });
-    new SlimSelect({ placeholder: '', select: 'select#smoke', showSearch: !1, showContent: "down", });
-    new SlimSelect({ placeholder: '', select: 'select#anyother', showSearch: !1, showContent: "down", });
-    new SlimSelect({ placeholder: '', select: 'select#whoTakeOther', showSearch: !1, showContent: "down", });
-    new SlimSelect({ placeholder: '', select: 'select#smokeOther', showSearch: !1, showContent: "down", });
+    // new SlimSelect({ placeholder: '', select: 'select#wh oTake', showSearch: !1, showContent: "down", });
+    // new SlimSelect({ placeholder: '', select: 'select#smoke', showSearch: !1, showContent: "down", });
+    // new SlimSelect({ placeholder: '', select: 'select#anyother', showSearch: !1, showContent: "down", });
+    // new SlimSelect({ placeholder: '', select: 'select#whoTakeOther', showSearch: !1, showContent: "down", });
+    // new SlimSelect({ placeholder: '', select: 'select#smokeOther', showSearch: !1, showContent: "down", });
     
     let current_fs, next_fs, previous_fs;
     let opacity;

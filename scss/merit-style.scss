@@ -1,0 +1,167 @@
+ .fieldlabels {
+        color: #2B3D55;
+        font-size: 18px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-left: 8px;
+        line-height: 1;
+    }
+    .field-container {
+        padding: 1.5em;
+        width: 100%;
+        // display: flex;
+    }
+    .title-step span{
+    font-weight: 700 !important;
+    padding: 0 0;
+    font-size: 20px;
+    color: #1C326A;
+    border-bottom: 2px solid #F29D35;
+}
+.title-step {
+    text-align: center;
+
+}
+   
+    .sub-title{
+        text-align: center;
+        font-weight: 400;
+        font-size: 21px;
+    }
+    .fieled-box{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .fieled-box1{
+        width: 300px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subtitle{
+        height: 150px;
+        background-color: #E3FCF5;
+        padding: 10px 0;
+        font-size: 15px;
+        border-radius: 20px;
+    }
+    .inp-box{
+       width: 100%;
+        background-color: #E3FCF5;
+        border-radius: 20px;
+        margin: 0 0 10px 10px;
+      
+    }
+    .inp-box .input-sec select{
+        width: 40px;
+        height: 30px;
+    }
+
+
+
+    /* point card styles */
+    // .calc-pts-section{
+    //     .calc-pts-card{
+    //         display: flex;
+    //         justify-content: space-between;
+            
+
+    //     }
+    //     .pts-card-sec-info{
+    //         background-color: #E3FCF5;
+    //         flex: 1;
+    //         height: 100%;
+    //          display: flex;
+    //         align-items: center;
+    //         justify-content: center;
+    //     }
+    //     .calc-pts-card-sec{
+    //         width: 30%;
+    //         height: auto;
+    //         // background-color: gray;
+    //         display: grid;
+    //         row-gap: 10px;
+    //         width: 100%;
+    //         margin-right: 10px;
+    //         &:last-child{
+    //             margin-right: 0;
+    //         }
+            
+    //     }
+    //     .pts-card-sec-box{
+    //         background-color: #E3FCF5;
+    //         display: flex;
+    //         align-items: center;
+    //         justify-content: center;
+    //     }
+    //     .pts-card-sec-box-inner{
+    //         display: flex;
+    //         flex-direction: column;
+    //         input{
+    //             width: 30px;
+    //             height: 30px;
+    //         }
+    //     }
+    // }
+    .calc-pts-section{
+        .calc-pts-card{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .pts-card-sec-info{
+            background-color: #E3FCF5;
+            border-radius: 10px;
+            height: auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 60% !important;
+                // height: 30px;
+                padding: 10px;
+            }
+        }
+        .calc-pts-card-sec{
+            width: 33%;
+            height: auto;
+            display: grid;
+            row-gap: 10px;
+            margin-right: 10px;
+            &:last-child{
+                margin-right: 0;
+            }
+            .pts-card-sec-box{
+                background-color: #E3FCF5;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .pts-card-sec-inner{
+                display: flex;
+                flex-direction: column;
+                input{
+                    width: 50px !important;
+                    height: 30px;
+                    border: 1px solid orange !important;
+                    margin-bottom: 7px;
+                }
+            }
+        }
+    }
+    
+.ss-main .ss-single-selected {
+   
+    background-color: #E3FCF5 !important;
+   
+
+ .placeholder, .ss-main .ss-single-selected .placeholder * {
+    
+    background-color: #E3FCF5 !important;
+    }
+}

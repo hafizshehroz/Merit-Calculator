@@ -11,8 +11,8 @@ require_once('merit-calculator-ajax-req.php');
 
 function merit_calculator_shortcode_callback(){
     $pluginPath = plugin_dir_url(__FILE__);
-    wp_enqueue_style('merit__stylesheet'                    , 	$pluginPath.'css/merit-calculator-style.css','','1.0');
     wp_enqueue_style('merit_calculator_stylesheet'          , 	$pluginPath.'css/merit-calculator-style.css','','1.0');
+    wp_enqueue_style('merit_stylesheet'                    , 	$pluginPath.'css/merit-style.css','','1.0');
     wp_enqueue_style('slim_select_stylesheet'                ,   'https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.27.1/slimselect.min.css');
 
     wp_enqueue_script('merit_calculator_html2pdf_script'    , 	$pluginPath.'js/html2pdf.bundle.min.js','','1.1');
